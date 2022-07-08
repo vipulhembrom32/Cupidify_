@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@400;500&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.fatface{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.mouserat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cinzel{
+    font-family: 'Cinzel', serif !important;
+}
+
+.resize-bg{
+    min-height: 50rem;
+    width: 100vw;
+}
+
+.page-bg {
+    min-height: 100vh;
+}
+
+.bg-valentine{
+    background-color: #FC5185 !important;
+}
+.text-valentine{
+    color: #FC5185 !important;
+}
+
+.flexy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.about-width {
+    max-width: 90rem;
+    width: 95%;
+}
