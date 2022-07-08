@@ -1,0 +1,112 @@
+.hero
+{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../images/back_4.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  opacity: 2;
+}
+
+.form-box
+{
+  width: 25rem;
+  min-height: 12rem;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5) !important;
+  border-radius: 1rem !important;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+
+}
+
+.button-box
+{
+  /* width: 15rem; */
+  /* width: 110px; */
+  width: 15.4rem;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+}
+
+.toggle-btn
+{
+    font-family: 'Montserrat', sans-serif;
+  padding: 10px 30px !important;
+  padding: 0.7rem 2rem !important;
+  cursor: pointer !important;
+  background: transparent !important;
+  border: 0 !important;
+  outline: none !important;
+  position:relative !important;
+}
+.input-form{
+    background: transparent !important;
+    font-weight: 600 !important;
+}
+
+.input-form::placeholder{
+    color: rgba(255, 255, 255, 0.5) !important;
+    font-weight: 400!important;
+}
+
+.input-form, .submit-btn{
+    border-radius: 2rem !important;
+}
+
+#btn
+{
+  top:0;
+  left:0;
+  position: absolute;
+  /* width: 110px; */
+  width: 7.5rem;
+  height: 100%;
+  background: linear-gradient(to right, #ff105f,#ffad06);
+  border-radius: 30px;
+  transition: .1s;
+
+}
+
+.input-group{
+  width:280px;
+  transition: .5s;
+}
+
+.input-field
+{
+  font-weight:900;
+  color:#FC5185;
+  width:100%;
+  padding:10px 0;
+  margin:5px 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+.submit-btn
+{
+    width: 100%;
+    cursor: pointer;
+    background: linear-gradient(to right, #ff105f,#ffad06) !important;
+    border-radius: 2rem;
+    font-weight: 600 !important;
+}
+
+span
+{
+    color: #777;
+    font-size: 12px;
+    bottom:68px;
+    position:absolute;
+}
+
+.link-input-box{
+    width: 100%;
+}

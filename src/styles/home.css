@@ -1,0 +1,125 @@
+.home-page-box {
+    height: 100vh;
+    width: 100vw !important;
+    border: 0;
+}
+
+.background-top {
+    height: 51rem;
+    position: relative;
+    border: 0;
+    /* background-color: #00DBDE;
+      background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%); */
+}
+
+.style-bg {
+    min-height: 90vh;
+}
+  
+.homex {
+    max-width: 80rem;
+    width: 95%;
+    height: 40rem;
+}
+
+.home-title {
+    font-size: 3rem;
+    line-height: 130%;
+}
+  
+.home-title-container {
+    min-height: 30rem;
+}
+  
+.get-started-btn {
+    border-radius: 2rem !important;
+}
+
+.heart-image{
+    max-height: 20rem;
+    max-width: 20rem;
+    width: 95%;
+    height: 95%;
+}
+
+@media screen and (max-width: 768px) {
+    .heart-image{    
+        max-height: 15rem;
+        max-width: 15rem;
+        width: 95%;
+        height: 95%;
+    }
+}
+  
+.custom-shape-divider-bottom-1639398461 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+  
+.custom-shape-divider-bottom-1639398461 svg {
+    position: relative;
+    display: block;
+    width: calc(122% + 1.3px);
+    height: 254px;
+    height: 260px;
+}
+  
+.custom-shape-divider-bottom-1639398461 .shape-fill {
+    fill: #212529;
+}
+
+.home-qoute{
+    font-size: 3rem;
+    line-height: 140%;
+}
+
+.about-feature-desc{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.footer {
+    min-height: 12rem;
+    color: gray;
+}
+
+.subscribe-input {
+    max-width: 35rem;
+    width: 90%;
+    border-radius: 2rem !important;
+}
+  
+.subscribe-input::placeholder {
+    color: gray !important;
+}
+  
+.newsletter-text {
+    font-size: 1.3rem;
+}
+  
+.fatface-heading{
+    font-size: 3rem;
+}  
+
+@media screen and (max-width: 768px) {
+    .background-top {
+      height: 50rem;
+    }
+    .home-title-container {
+      min-height: 20rem;
+    }
+}
+  
+@media screen and (max-width: 576px) {
+    .background-top {
+      height: 60rem;
+    }
+    .home-title {
+      letter-spacing: -0.155rem;
+    }
+}

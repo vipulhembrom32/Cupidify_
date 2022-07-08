@@ -1,0 +1,14 @@
+.card{
+    max-width: 30rem;
+    width: 100%;
+    border: none;
+}
+
+.sign-round{
+    border-radius: 1.5rem !important;
+}
+
+.sign-box{
+    height: 90vh;
+    width: 100%;
+}

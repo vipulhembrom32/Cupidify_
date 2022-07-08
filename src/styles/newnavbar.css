@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&family=Press+Start+2P&family=Quintessential&display=swap');
+
+.nav-hamburger-link{
+  font-family: 'Indie Flower' !important;
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  border-radius: 2rem !important;
+  background-color: #FC5185 !important;
+  color: #212529 !important;
+  text-decoration-color:"none";
+  /* border: 1px solid #212529 !important; */
+}
+
+.active{
+  color: #FC5185 !important;
+  background-color: #212529 !important;
+  /* background-color: #364F6B !important; */
+  /* opacity: 0.5; */
+  border: 1px solid #FC5185 !important;
+}
+
+.nav-hamburger-link:hover{
+  box-shadow: inset 10px 0 200px 100px #212529 !important;
+  /* color: #FF165D !important; */
+  color: #FC5185 !important;
+  transition: ease-out 0.1s;
+  /* border: 1px solid #E60965 !important; */
+}
+
+/* .about_page_link{
+  text-decoration: none;
+  width:2px;
+} */
+
+.Hamburger{
+  position: fixed;
+  top:1.5rem;
+  right:0.3rem;
+  z-index: 100;
+}
+
+.Hamburger .hamburger_list{
+    position: fixed;
+    top:5rem;
+    right: 1rem;
+}
+
+.Hamburger .toggler{
+  position: absolute;
+  top:0;
+  right:1rem;
+  z-index: 200;
+  cursor: pointer;
+  width:3.7rem;
+  height:3.7rem;
+  opacity:0;
+}
+.Hamburger .Hamburger_icon{
+  position: absolute;
+  top:0;
+  right:1rem;
+  z-index: 100;
+  width: 3.7rem;
+  height: 3.7rem;
+  padding: 1rem;
+  border-radius: 5rem 2rem 5rem 2rem;
+  background: #FC5185;
+  opacity: 1;
+}
+
+.Hamburger .Hamburger_icon > div{
+  position: relative;
+  width:100%;
+  height: 2px;
+  background-color: #EAEAEA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 10px 0 200px 100px #212529;
+  transition: ease-out 0.7s;
+  transition: all 0.4s ease;
+}
+
+.Hamburger .Hamburger_icon > div:before,
+.Hamburger .Hamburger_icon > div:after{
+  content: '';
+  position: absolute;
+  z-index: 100;
+  top:-10px;
+  width:100%;
+  height: 2px;
+  background: inherit;
+  box-shadow: inset 10px 0 200px 100px #212529;
+  transition: ease-out 0.7s;
+}
+.Hamburger .Hamburger_icon > div:after{
+  top:10px;
+  box-shadow: inset 10px 0 200px 100px #212529;
+  transition: ease-out 0.7s;
+}
+.Hamburger .toggler:checked + .Hamburger_icon{
+  box-shadow: inset 10px 0 200px 100px #212529;
+  transition: ease-out 0.7s;
+}
+.Hamburger .toggler:checked + .Hamburger_icon > div{
+  transform: rotate(135deg);
+  box-shadow: inset 10px 0 200px 100px #FC5185;
+  transition: ease-out 0.7s;
+}
+.Hamburger .toggler:checked + .Hamburger_icon > div:before,
+.Hamburger .toggler:checked + .Hamburger_icon > div:after{
+  top: 0;
+  transform:rotate(90deg);
+  box-shadow: inset 10px 0 200px 100px #FC5185;
+  transition: ease-out 0.7s;
+}
+.Hamburger .toggler:checked ~ .hamburger_list > div{
+  z-index: 100;
+  transform: scale(1);
+  transition-duration: 0.75s;
+}
+.Hamburger .hamburger_list > div{
+  z-index: -1;
+  transform: scale(0);
+}
+.Hamburger .hamburger_list > div > div > ul > li{
+  list-style: none;
+}

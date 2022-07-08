@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&family=Press+Start+2P&family=Quintessential&display=swap');
+.leaderboard-back-image{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url(../images/leaderboardbackground.gif);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  /* overflow-y: scroll !important; */
+}
+
+.scroll-respect{
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll !important;
+}
+
+/* .position{
+	font-size: 30px;
+	position: absolute;
+	color: #364F6B;
+	top:185px;
+	left: 525px;
+} */
+
+.leaderboard_heading{
+  height: 6rem;
+  font-size: 2rem;
+}
+.custom_leaderboard_heading{
+	background-color: #2EB086;
+  /* padding: 13px; */
+  /* border: 1px none; */
+  border-radius: 3rem;
+  min-height: 3.5rem;
+  min-width: 10rem;
+  font-size: 35px;
+  color:#EEE6CE;
+  font-family: 'Indie Flower';
+}
+.leaderboard-text{
+  font-size: 1rem;
+}
+.leaderboard-count-text{
+  font-size: 1.5rem;
+}
+.leaderboard-rank{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5);
+}

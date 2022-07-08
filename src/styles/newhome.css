@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&family=Press+Start+2P&family=Quintessential&display=swap');
+/* .back_img_1{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 50% 60%;
+} */
+.background-div{
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  /* background-size: 50% 60%; */
+  background-size: contain;
+  
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../images/img1.svg');
+}
+.Heading{
+  font-family: 'Indie Flower';
+  font-size: 100px;
+  font-weight: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-right: 1px;
+  color: #FF165D;
+  z-index: 2;
+}
+.cupid{
+  display: flex;
+  width: 150px;
+  height: 110px;
+  margin:0 auto;
+  margin-right: 26.5625vw;
+  margin-top: -180px;
+  z-index:1;
+}
+.heart{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  margin-top: -655px;
+  margin-right:300px;
+}
+.back_img_2{
+  position: absolute;
+  left:40px;
+  top:40px;
+  width: 250px;
+  height: 200px;
+  z-index: -1;
+}
+.back_img_3{
+  position: absolute;
+  top:500px;
+  width: 300px;
+  height: 200px;
+}
+.back_img_4{
+  display:flex;
+  margin: auto;
+  margin-right: 0px;
+  margin-top: 350px;
+  width: 400px;
+  height: 250px;
+}
+.quote{
+  display: flex;
+  margin: auto;
+  margin-top: 480px;
+  margin-left: 310px;
+  margin-right: 340px;
+  font-size: 30px;
+  font-family: 'Indie Flower';
+}
